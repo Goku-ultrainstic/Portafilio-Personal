@@ -1,0 +1,143 @@
+body {
+    background-image: url(../img/tour.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main-header{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    height: 100px;
+
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+#main-header2{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    height: 1%;
+
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+#main-header a{
+    color: #ffffff;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.5;
+}
+	#logo-header:hover {
+		color: #63d91f;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #ffffff;
+	}
+	
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #63d91f;
+				}
+
+#main-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+                
+    #main-content header,
+    #main-content .content {
+        padding: 40px;
+    }
+            
+#main-footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    margin-top: 30px;
+}
+#main-footer p {
+    margin: 0;
+}
+                    
+#main-footer a {
+    color: white;
+}
+
+.border {
+    color: transparent;  
+    text-shadow:
+      -1px -1px 0 white, 
+      1px -1px 0 white,
+      -1px 1px 0 white,
+      1px 1px 0 white;  
+  }
+
+img {
+	max-width: 90%;
+	height: auto;
+	border: solid 10px #ffffff;
+    border-radius: 50px;
+}
+
+.container3{
+    gap: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    height: 60%;
+    padding-top: 150px;
+}

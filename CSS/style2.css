@@ -1,0 +1,311 @@
+body {
+  background-image: url(../img/hte2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 8rem;
+  color: #cccccc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+  text-align: center;
+  font-size: 8rem;
+  padding-top: 80px;
+  color: #b88963;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main-header{
+  background: #8f5528;
+  color: rgb(255, 255, 255);
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+#main-header2{
+  background: transparent;
+  color: rgb(255, 255, 255);
+  height: 1%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+#main-header a{
+  color: #ffffff;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  opacity: 0.5;
+}
+	#logo-header:hover {
+		color: #b88963;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #ffffff;
+	}
+	
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+	
+	nav ul li {
+		display: inline-block;
+		line-height: 80px;
+	}
+			
+	nav ul li a {
+		display: block;
+		padding: 0 10px;
+		text-decoration: none;
+	}
+			
+	nav ul li a:hover {
+		background: #b88963;
+	}
+
+#main-content {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+                
+  #main-content header,
+  #main-content .content {
+    padding: 40px;
+  }
+            
+#main-footer {
+  background: #8f5528;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+#main-footer p {
+  margin: 0;
+}
+                    
+#main-footer a {
+  color: white;
+}
+.container{
+  gap: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  height: 60%;
+}
+.container3{
+  gap: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  height: 20%;
+}
+.card{
+  width: 500px;
+  height: flex;
+  padding-top: 150px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 35px;
+}
+  
+.cards .blue {
+  background-image: url("../img/examen.png");
+  background-size: cover;
+}
+  
+.cards .billie {
+  background-image: url("../img/pagina.png");
+  background-size: cover;
+}
+
+.cards .goku {
+  background-image: url("../img/img\ -\ copia.jpg");
+  background-size: cover;
+}
+  
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 50px;
+  color: #553d30;
+  cursor: pointer;
+  transition: 400ms;
+}
+  
+.cards .card:hover {
+  transform: scale(1.1, 1.1);
+}
+  
+.cards:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+
+.button2 {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+  
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+  
+.button2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+  
+.button2:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #c98d5d;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+  
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #c98d5d;
+}
+  
+.button2:hover:before {
+  top: -35%;
+  background-color: #c98d5d;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+  
+.button2:hover:after {
+  top: -45%;
+  background-color: #c98d5d;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+ 
+
+button {
+  font-size: 25px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+  
+button:focus,
+button:hover {
+  color: #fff;
+}
+  
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+  
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
